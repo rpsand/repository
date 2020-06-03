@@ -3,15 +3,17 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: C# | Documentia</title>
+  <title>TOC | Documentia</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Blogging and other writings">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Documentia">
-<meta property="og:url" content="http://127.0.0.1/documentia/tags/C/index.html">
+  <meta name="description" content="hexo-toc MIT License npm: Package Quality Insert a markdown TOC(Table Of Content) before posts be rendered.Unlike the native toc helper, this plugin will inject a TOC only when a placeholder(    Markd">
+<meta property="og:type" content="article">
+<meta property="og:title" content="TOC">
+<meta property="og:url" content="http://127.0.0.1/documentia/2020/06/02/TOC/index.html">
 <meta property="og:site_name" content="Documentia">
-<meta property="og:description" content="Blogging and other writings">
+<meta property="og:description" content="hexo-toc MIT License npm: Package Quality Insert a markdown TOC(Table Of Content) before posts be rendered.Unlike the native toc helper, this plugin will inject a TOC only when a placeholder(    Markd">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-06-02T13:48:45.000Z">
+<meta property="article:modified_time" content="2020-06-02T14:20:01.914Z">
 <meta property="article:author" content="Paul Sanderson">
 <meta name="twitter:card" content="summary">
   
@@ -80,40 +82,97 @@
 
     <div class="row">
         <div class="col-sm-8 blog-main">
-          
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <header class="archive-article-header">
+          <article id="post-TOC" class="article article-type-post" itemscope itemprop="blogPost">
+
+  <header class="article-header">
     
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/03/23/2015-03-23-Make-VS-Insert-Spaces/">Spaces for Newline Indents in VS</a>
+    <h1 class="article-title" itemprop="name">
+      TOC
     </h1>
   
 
 
+  </header>
+
+  <div class="article-meta">
     <div class="article-datetime">
-  <a href="/2015/03/23/2015-03-23-Make-VS-Insert-Spaces/" class="archive-article-date"><time datetime="2015-03-23T00:00:00.000Z" itemprop="datePublished">March 23rd</time></a>
+  <a href="/2020/06/02/TOC/" class="article-date"><time datetime="2020-06-02T13:48:45.000Z" itemprop="datePublished">2020-06-02</time></a>
 </div>
 
-  </header>
-</article>
+    
+    
+
+  </div>
+  <div class="article-inner">
+
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>hexo-toc</p>
+<p>MIT License</p>
+<p>npm: Package Quality</p>
+<pre><code>Insert a markdown TOC(Table Of Content) before posts be rendered.</code></pre><p>Unlike the native toc helper, this plugin will inject a TOC only when a placeholder(<div class="toc"></p>
+<!-- toc -->
+
+<ul>
+<li><a href="#markdown-it-config">Markdown-it config</a><ul>
+<li><a href="#docs-https-github-com-celsomiranda-hexo-renderer-markdown-it-wiki">Docs: https://github.com/celsomiranda/hexo-renderer-markdown-it/wiki</a></li>
+</ul>
+</li>
+</ul>
+<!-- tocstop -->
+
+<p>) in your post when and where needed.</p>
+<p>Note: this plugin will not mangle your posts(markdown files), so you can use it bold.<br>Install</p>
+<p>npm install hexo-toc –save</p>
+<p>Options</p>
+<p>All the options of markdown-toc, slugify function, and heading anchor options can be specified as follow in you _config.yml:</p>
+<p>toc:<br>  maxdepth: 3<br>  class: toc<br>  slugify: transliteration<br>  decodeEntities: false<br>  anchor:<br>    position: after<br>    symbol: ‘#’<br>    style: header-anchor</p>
+<pre><code>maxdepth: Use headings whose depth is at most maxdepth.
+class: The CSS Class for the toc. (Default is false)
+slugify: Choose which slugify function you want to use. Currently support uslug (Default) and transliteration.
+decodeEntities: Select whether to enable decode entities. ( Default is false and please see #15).
+anchor: Whether should have an anchor for each headings. (Default is false)
+    position: Where should the anchor be, before the title, or after the title. (Default is after);
+    symbol: Which symbol you want the anchor be. (Default is #);
+    style: The CSS class for the anchor, (Default is header-anchor);</code></pre><p>Known issues<br>#8</p>
+<p>Working with hexo-renderer-markdown-it.</p>
+<h1><span id="markdown-it-config">Markdown-it config</span><a href="#markdown-it-config" class="header-anchor">#</a></h1><h2><span id="docs-https-github-com-celsomiranda-hexo-renderer-markdown-it-wiki">Docs: </span><a href="#docs-https-github-com-celsomiranda-hexo-renderer-markdown-it-wiki" class="header-anchor">#</a></h2><p>markdown:<br>  render:<br>    html: true</p>
+
+      
+    </div>
+
+    
+      
+
+    
+
+    <footer class="article-footer">
+      <a data-url="http://127.0.0.1/documentia/2020/06/02/TOC/" data-id="ckazewglj000x51yqbenfeqf8" class="article-share-link">
+        <i class="fa fa-share"></i> Share
+      </a>
+      
+      
+
+    </footer>
+  </div>
+  
+    
+<ul id="article-nav" class="nav nav-pills nav-justified">
+  
+  <li role="presentation">
+    <a href="/2020/06/02/lazy-image/" id="article-nav-older" class="article-nav-link-wrap">
+      <i class="fa fa-chevron-left pull-left"></i>
+      <span class="article-nav-link-title">lazy-image</span>
+    </a>
+  </li>
+  
+  
+</ul>
+
 
   
-  
-    </div></section>
-  
+</article>
 
 
 
